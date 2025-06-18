@@ -1,0 +1,517 @@
+{
+  "concerts": [
+    {
+      "id": 1,
+      "artist": {
+        "name": "Stray Kids",
+        "genre": "K-pop"
+      },
+      "image": "https://cdn.getcrowder.com/images/e946faaa-b7b5-4b3a-9d60-b803f1c1d78a-banner-web-desktop.jpg",
+      "description": "¡Stray Kids llega a Lima con un espectáculo que promete ser inolvidable! La banda de K-pop del momento aterriza en Perú para encontrarse con sus fans con toda su energía, talento y carisma. Será una noche llena de música, emoción y performances impactantes. No te pierdas la oportunidad de vivir en vivo uno de los conciertos más esperados del año. Prepárate para corear tus canciones favoritas y sentir la fuerza de Stray Kids en el corazón de Lima.",
+      "date": "09 de Abril",
+      "venue": {
+        "name": "Estadio San Marcos",
+        "address": "Ciudad Universitaria - UNMSM, Jr. Francisco Moreyra y Riglos 637, Lima 15081",
+        "location": {
+          "lat": -12.057788476977564,
+          "lng": -77.08303565129496
+        }
+      },
+      "status": "Sold out",
+      "views": [
+        2,
+        2,
+        2
+      ],
+      "attendees": [
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "artist": {
+        "name": "Arctic Monkeys",
+        "genre": "Rock"
+      },
+      "image": "https://i0.wp.com/enclavedeindie.com/wp-content/uploads/2023/05/arctic-monekys-tour.jpg?fit=1400%2C525&ssl=1",
+      "description": "¡Arctic Monkeys llega a Lima con un concierto que hará historia! La icónica banda británica, conocida por su sonido único y letras memorables, ofrecerá una noche cargada de rock, nostalgia y energía pura. Prepárate para disfrutar en vivo de sus grandes éxitos y dejarte llevar por la fuerza de su música. Una experiencia imperdible para los verdaderos amantes del rock.",
+      "date": "15 de Noviembre",
+      "venue": {
+        "name": "Arena 1",
+        "address": "Cto. de Playas s/n, San Miguel 15087",
+        "location": {
+          "lat": -12.09054897606833,
+          "lng": -77.08940124030742
+        }
+      },
+      "status": "Sold out",
+      "views": [
+        2
+      ],
+      "attendees": []
+    },
+    {
+      "id": 3,
+      "artist": {
+        "name": "Harry Styles",
+        "genre": "Pop"
+      },
+      "image": "https://cdn.teleticket.com.pe/especiales/harry-styles-2020/images/harry_rs.jpg",
+      "description": "¡Harry Styles regresa a Lima con un show único que no querrás perderte! El artista británico, reconocido por su estilo auténtico y su increíble presencia en el escenario, traerá sus mayores éxitos en una noche llena de emoción, conexión y buena música. Prepárate para cantar a todo pulmón, dejarte llevar por la magia de sus canciones y vivir una experiencia inolvidable. Lima se llena de estilo, sentimiento y música con Harry Styles en concierto.",
+      "date": "29 de Noviembre",
+      "status": "Sold out",
+      "venue": {
+        "name": "Estadio Nacional",
+        "address": "C. José Díaz s/n, Lima 15046",
+        "location": {
+          "lat": -12.067283686547315,
+          "lng": -77.03367466054232
+        }
+      },
+      "views": [],
+      "attendees": []
+    },
+    {
+      "id": 4,
+      "artist": {
+        "name": "Niall Horan",
+        "genre": "Pop"
+      },
+      "image": "https://elpopular.cronosmedia.glr.pe/original/2024/03/04/65e67fa711bb376bf307a651.jpg",
+      "description": "¡Niall Horan llega a Lima con su tour más esperado! El cantautor irlandés, exintegrante de One Direction, regresa con un show íntimo y lleno de emociones, donde presentará sus nuevos temas y los favoritos de siempre. Con su estilo cálido y su voz inconfundible, Niall promete una noche especial que conectará con cada fan. No te pierdas esta experiencia única en la ciudad.",
+      "date": "06 de Octubre",
+      "status": "Sold out",
+      "venue": {
+        "name": "Estadio Nacional",
+        "address": "C. José Díaz s/n, Lima 15046",
+        "location": {
+          "lat": -12.067283686547315,
+          "lng": -77.03367466054232
+        }
+      },
+      "views": [],
+      "attendees": []
+    },
+    {
+      "id": 5,
+      "artist": {
+        "name": "Dua Lipa",
+        "genre": "Pop"
+      },
+      "image": "https://cdn.getcrowder.com/images/abf95b2d-46a1-48b0-a803-7587d3ae2bd8-tmbanner-desktop.jpg",
+      "description": "¡Dua Lipa llega por primera vez a Lima con su esperada gira Radical Optimism Tour! El martes 25 de noviembre de 2025, el Estadio San Marcos será el escenario donde la superestrella británica presentará en vivo los temas de su nuevo álbum Radical Optimism, junto a los éxitos que la han convertido en un ícono global del pop.",
+      "date": "25 de Noviembre",
+      "status": "Sold out",
+      "venue": {
+        "name": "Estadio San Marcos",
+        "address": "Ciudad Universitaria - UNMSM, Jr. Francisco Moreyra y Riglos 637, Lima 15081",
+        "location": {
+          "lat": -12.057788476977564,
+          "lng": -77.08303565129496
+        }
+      },
+      "views": [],
+      "attendees": []
+    },
+    {
+      "id": 6,
+      "artist": {
+        "name": "Mon Laferte",
+        "genre": "Indie"
+      },
+      "image": "https://www.afsdp.org.pe/wp-content/uploads/2019/09/monlaferteenlima_190904_afsdp_ac.jpg",
+      "description": "¡Mon Laferte regresa a Lima con su aclamado Autopoiética Tour! La artista chilena-mexicana se presentará el martes 16 de abril de 2024 en el Multiespacio Costa 21, ubicado en la Costa Verde de San Miguel. Este concierto forma parte de la gira promocional de su octavo álbum de estudio, Autopoiética (2023), donde la cantante explora nuevos sonidos y emociones.",
+      "date": "16 de Abril",
+      "status": "Available",
+      "venue": {
+        "name": "Arena 1",
+        "address": "Cto. de Playas s/n, San Miguel 15087",
+        "location": {
+          "lat": -12.09054897606833,
+          "lng": -77.08940124030742
+        }
+      },
+      "views": [],
+      "attendees": []
+    },
+    {
+      "id": 7,
+      "artist": {
+        "name": "Cometa a la deriva",
+        "genre": "Indie"
+      },
+      "image": "https://i.scdn.co/image/ab676161000051746a320e6b660d07b97843b9ca",
+      "description": "¡Cometa a la Deriva regresa a Lima con un concierto imperdible! La banda peruana de indie rock se presentará el 25 de julio de 2025 en Vichama Conciertos, como parte del Festival Caudal Lima 2025. Este evento reunirá a destacados exponentes del indie latinoamericano, incluyendo a Dënver (Chile), 380 (Arequipa) y Super Fuzz.",
+      "date": "25 de Julio",
+      "status": "Available",
+      "venue": {
+        "name": "Costa 21",
+        "address": "Cto. de Playas, San Miguel 15086",
+        "location": {
+          "lat": -12.095479268383688,
+          "lng": -77.07979683935984
+        }
+      },
+      "views": [],
+      "attendees": []
+    },
+    {
+      "id": 8,
+      "artist": {
+        "name": "We The Lion",
+        "genre": "Pop"
+      },
+      "image": "https://cdn.joinnus.com/user/145113/act5f58e50944700.jpg",
+      "description": "¡We The Lion regresa a Lima con una propuesta innovadora! El próximo sábado 24 de mayo de 2025, la banda peruana de indie folk presentará su espectáculo We The Lion 360° Experience en La Cúpula de las Artes – Carpa Blanca, ubicada junto al Jockey Plaza. Este evento multisensorial contará con un escenario circular, proyecciones envolventes y zonas interactivas que incluyen realidad virtual y experiencias de audio inmersivo.",
+      "date": "24 de Mayo",
+      "status": "Available",
+      "venue": {
+        "name": "Arena 1",
+        "address": "Cto. de Playas s/n, San Miguel 15087",
+        "location": {
+          "lat": -12.09054897606833,
+          "lng": -77.08940124030742
+        }
+      },
+      "views": [],
+      "attendees": []
+    },
+    {
+      "id": 9,
+      "artist": {
+        "name": "Dpos",
+        "genre": "Latin Rock"
+      },
+      "image": "https://i.scdn.co/image/ab6761610000517479411ef5a874f7110ec90d2b",
+      "description": "DPOS, la banda originaria de Ica, regresa a Lima este sábado 6 de abril de 2025 para presentar en vivo su segundo EP Gomorra en Rosa Negra Restobar, brindando un espectáculo cargado de energía, guitarras contundentes y letras memorables.",
+      "date": "06 de Abril",
+      "status": "Available",
+      "venue": {
+        "name": "CCB Barranco",
+        "address": "Av. República de Panamá 220, Barranco 15063",
+        "location": {
+          "lat": -12.140218510312803,
+          "lng": -77.01760074458753
+        }
+      },
+      "views": [],
+      "attendees": []
+    },
+    {
+      "id": 10,
+      "artist": {
+        "name": "Linkin Park",
+        "genre": "Rock"
+      },
+      "image": "https://www.bbva.pe/content/dam/public-web/peru/images/blog/linkin-park-600.jpg",
+      "description": "¡Linkin Park regresa a Lima en 2025 con su esperado From Zero World Tour! El 29 de octubre de 2025, la banda se presentará en el Estadio San Marcos, marcando su regreso a Perú tras siete años de ausencia. Este tour mundial celebra el lanzamiento de su octavo álbum de estudio, From Zero, que salió el 15 de noviembre de 2024 . Con una nueva formación que incluye a Emily Armstrong como vocalista principal y Colin Brittain en la batería, la banda promete una experiencia única que fusiona su característico sonido con nuevas influencias .",
+      "date": "29 de Octubre",
+      "status": "Sold out",
+      "venue": {
+        "name": "Estadio San Marcos",
+        "address": "Ciudad Universitaria - UNMSM, Jr. Francisco Moreyra y Riglos 637, Lima 15081",
+        "location": {
+          "lat": -12.057788476977564,
+          "lng": -77.08303565129496
+        }
+      },
+      "views": [],
+      "attendees": []
+    },
+    {
+      "id": 1748593625882,
+      "artist": {
+        "name": "DaDevel",
+        "genre": "Rock"
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRI_kT6YUj8Gxzjy7gz5gwZyAHIb-WBR_5Sg&s",
+      "description": "lolazo",
+      "date": "20 de setiembre",
+      "venue": {
+        "name": "mi jato",
+        "address": "Av. La Marina 2000, San Miguel, Lima, Perú",
+        "location": {
+          "lat": -12.0775429,
+          "lng": -77.0833936
+        }
+      },
+      "status": "Available",
+      "views": [],
+      "attendees": []
+    },
+    {
+      "id": 1748593991116,
+      "artist": {
+        "name": "Surocketsito",
+        "genre": "Rock"
+      },
+      "image": "https://i.pinimg.com/736x/c3/61/81/c3618140a719e8647dc2e9aa5a9ff5bd.jpg",
+      "description": "la vida es un carrusel",
+      "date": "30 de agosto",
+      "venue": {
+        "name": "La jai de renato",
+        "address": "Av. Conde de Lemos 605, Lima",
+        "location": {
+          "lat": -12.0489104,
+          "lng": -77.0921049
+        }
+      },
+      "status": "Available",
+      "views": [],
+      "attendees": []
+    },
+    {
+      "id": 1749798527158,
+      "artist": {
+        "name": "Diego Rivas",
+        "genre": "Rock"
+      },
+      "image": "https://i.pinimg.com/564x/a0/63/27/a06327bef5a85e1f8cf76f4d4e8f8a46.jpg",
+      "description": "diego Rivas en ventanilla",
+      "date": "10 de junio",
+      "venue": {
+        "name": "Metro Ventanilla",
+        "address": "Mz. C Lt. 30, Av. Nestor Gambetta s/n, Ventanilla 07036",
+        "location": {
+          "lat": -11.934124,
+          "lng": -77.1307899
+        }
+      },
+      "status": "Available",
+      "views": [],
+      "attendees": []
+    },
+    {
+      "id": 1750181164985,
+      "artist": {
+        "name": "Diego Rivas",
+        "genre": "Pop"
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRI_kT6YUj8Gxzjy7gz5gwZyAHIb-WBR_5Sg&s",
+      "description": "asdsadasdda",
+      "date": "30 de junio",
+      "venue": {
+        "name": "Metro Ventanilla",
+        "address": "Metro Ventanilla Mz. C Lt. 30, Av. Nestor Gambetta s/n, Ventanilla 07036",
+        "location": {
+          "lat": -11.8775748,
+          "lng": -77.1261056
+        }
+      },
+      "status": "Available",
+      "views": [],
+      "attendees": []
+    }
+  ],
+  "communities": [
+    {
+      "id": 1,
+      "name": "Swifties",
+      "memberQuantity": "12k",
+      "posts": [],
+      "image": "https://static.eldiario.es/clip/1b3c61f9-6ad5-406b-9243-0dfb2625f66e_16-9-discover-aspect-ratio_default_1093664.jpg",
+      "description": "Comunidad de fans de Taylor Swift, compartiendo noticias, música y experiencias.",
+      "members": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ARMY",
+      "memberQuantity": "2k",
+      "posts": [],
+      "image": "https://primary.jwwb.nl/public/s/x/o/temp-croccjjgvzkatfltrkgd/7sxulq/img_7983-2.jpg",
+      "description": "Seguidores de BTS que celebran su música, logros y cultura coreana.",
+      "members": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Moonwalkers",
+      "memberQuantity": "2k",
+      "posts": [],
+      "image": "https://www.sapere.it/.imaging/mte/sapere/624x410/dam/pillole-di-sapere/cultura-e-spettacolo/Michael-Jackson.jpg/jcr:content/Michael%20Jackson.jpg",
+      "description": "Fans de Michael Jackson que honran su legado musical y artístico.",
+      "members": []
+    },
+    {
+      "id": 4,
+      "name": "Beliebers",
+      "memberQuantity": "8k",
+      "posts": [],
+      "image": "https://img2.rtve.es/i/?w=1600&i=1618386529042.jpg",
+      "description": "Grupo de fans dedicados a seguir la carrera de Justin Bieber.",
+      "members": []
+    },
+    {
+      "id": 5,
+      "name": "The Weeknd fans",
+      "memberQuantity": "6k",
+      "posts": [],
+      "image": "https://plus.cusica.com/wp-content/uploads/2022/01/698360ec-0075-4b23-808f-da00363878bc.png",
+      "description": "Comunidad para quienes disfrutan del estilo único y oscuro de The Weeknd.",
+      "members": []
+    },
+    {
+      "id": 6,
+      "name": "Bad Bunny fans",
+      "memberQuantity": "8k",
+      "posts": [],
+      "image": "https://bizarro.cl/wp-content/uploads/2025/05/IMG_5904.png",
+      "description": "Fanáticos del reggaetón y estilo irreverente de Bad Bunny.",
+      "members": []
+    },
+    {
+      "id": 7,
+      "name": "Little Monsters",
+      "memberQuantity": "5k",
+      "posts": [],
+      "image": "https://s2-oglobo.glbimg.com/uziCc9sYT3P8lNa7P25V_0N3s88=/0x0:1080x720/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/e/A/Yw8ALqRSK918NZdUgThg/ladyagaga-afp.jpg",
+      "description": "Seguidores de Lady Gaga, celebrando su música, moda y arte.",
+      "members": []
+    },
+    {
+      "id": 8,
+      "name": "Rosalía fans",
+      "memberQuantity": "4k",
+      "posts": [],
+      "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/12/03/16700731491703.jpg",
+      "description": "Comunidad apasionada por el flamenco moderno y el estilo de Rosalía.",
+      "members": []
+    },
+    {
+      "id": 9,
+      "name": "Directioners",
+      "memberQuantity": "6k",
+      "posts": [],
+      "image": "https://wallpapers.com/images/featured/imagenes-de-one-direction-1s8chz4nmf9vxwde.jpg",
+      "description": "Fans de One Direction que mantienen vivo el espíritu de la banda.",
+      "members": []
+    },
+    {
+      "id": 10,
+      "name": "Linkin Park fans",
+      "memberQuantity": "14k",
+      "posts": [],
+      "image": "https://www.ebilet.pl/now/app/uploads/2025/03/Linkin_Park-desktop-1280x720.jpg",
+      "description": "Admiradores de Linkin Park que comparten su impacto en el rock y la cultura.",
+      "members": []
+    },
+    {
+      "id": 11,
+      "name": "loleros",
+      "posts": [
+        1749829284972,
+        1750049095943,
+        1750205641324,
+        1750212368678,
+        1750212395603,
+        1750214629129
+      ],
+      "image": "https://images7.memedroid.com/images/UPLOADED537/60ecb59c4760c.jpeg",
+      "description": "",
+      "members": [
+        2
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Bang Chan",
+      "email": "chrisbangchan@gmail.com",
+      "password": "skz",
+      "profileImage": "https://i.pinimg.com/736x/1e/b8/90/1eb8908da855560a6b79e16455798985.jpg",
+      "type": "fan",
+      "communitiesJoined": [
+        1,
+        2
+      ],
+      "upcomingConcerts": [],
+      "postsDone": [],
+      "location": {
+        "lat": -12.076837528231636,
+        "lng": -77.09347965592731
+      }
+    },
+    {
+      "id": 2,
+      "name": "Diego Rivas Oficial",
+      "email": "diegorivas@gmail.com",
+      "password": "rivas",
+      "profileImage": "https://www.infobae.com/new-resizer/keSKu2iCr9g-NNBLlRwNlR_Yimo=/arc-anglerfish-arc2-prod-infobae/public/W3V2FSPCKNFB3NMC5IUJY6DRFY.jpg",
+      "type": "artist",
+      "communitiesJoined": [
+        1,
+        11
+      ],
+      "upcomingConcerts": [
+        1
+      ],
+      "postsDone": [
+        1749829284972,
+        1750049095943,
+        1750205641324,
+        1750212368678,
+        1750212395603,
+        1750214629129
+      ],
+      "location": {
+        "lat": -12.0520704,
+        "lng": -77.0932736
+      }
+    }
+  ],
+  "posts": [
+    {
+      "id": 1749829284972,
+      "userId": 2,
+      "communityId": 11,
+      "content": "busco chica gamer real que sea plata plox :,v",
+      "postedAt": "2025-06-13T15:41:24.972Z",
+      "imageUrl": "https://res.cloudinary.com/dngk5bc3p/image/upload/v1749829327/nkpjpjnziacpg9za1bus.jpg"
+    },
+    {
+      "id": 1750049095943,
+      "userId": 2,
+      "communityId": 11,
+      "content": "bla bla bla ble ble ble blu blu blu ablubuibububub",
+      "postedAt": "2025-06-16T04:44:55.943Z",
+      "imageUrl": "https://res.cloudinary.com/dngk5bc3p/image/upload/v1750049140/zlepbtylnhhk5cpbzuqr.webp"
+    },
+    {
+      "id": 1750205641324,
+      "userId": 2,
+      "communityId": 11,
+      "content": "funciona?",
+      "postedAt": "2025-06-18T00:14:01.324Z",
+      "imageUrl": ""
+    },
+    {
+      "id": 1750212368678,
+      "userId": 2,
+      "communityId": 11,
+      "content": "funciona o nel",
+      "postedAt": "2025-06-18T02:06:08.678Z",
+      "imageUrl": "https://res.cloudinary.com/dngk5bc3p/image/upload/v1750212418/hn3eukkwkjeb0tpfihsk.jpg"
+    },
+    {
+      "id": 1750212395603,
+      "userId": 2,
+      "communityId": 11,
+      "content": "sadasdsadsa",
+      "postedAt": "2025-06-18T02:06:35.603Z",
+      "imageUrl": "https://res.cloudinary.com/dngk5bc3p/image/upload/v1750212446/rgcgsxfv18vphxgjbnlz.webp"
+    },
+    {
+      "id": 1750214629129,
+      "userId": 2,
+      "communityId": 11,
+      "content": "me cago de risa xdxdxd",
+      "postedAt": "2025-06-18T02:43:49.129Z",
+      "imageUrl": "https://res.cloudinary.com/dngk5bc3p/image/upload/v1750214679/kiz9lutozgbw0v8vsi5s.jpg"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.options-btn{
+  border-radius: 100vw;
+  padding: 10px;
+  font-weight: bold;
+  min-width: unset;
+}
+
+.options-btn:hover {
+  background-color: #333840;
+}

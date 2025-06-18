@@ -1,0 +1,9 @@
+<mat-card class = "concert-card">
+  <mat-card-content>
+    <img mat-card-image [alt]="concert.artist.name" [src]="concert.image">
+    <mat-card-title class="concert-title">
+      <h2>{{concert.artist.name}}</h2>
+    </mat-card-title>
+    <p>{{concert.date }}, {{concert.venue.name}}</p>
+  </mat-card-content>
+</mat-card>

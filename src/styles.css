@@ -1,1 +1,159 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+.custom-dialog-container .mat-dialog-container {
+  background-color: #121212 !important;
+  color: white !important;
+  border-radius: 16px !important;
+  padding: 2rem !important;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8) !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.cdk-overlay-pane .mat-select-panel {
+  background-color: #1e1e1e !important;
+  color: white !important;
+  border-radius: 8px !important;
+  border: 1px solid #444 !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8) !important;
+  opacity: 1 !important;
+  z-index: 2000 !important;
+}
+
+/* Estilo del calendario */
+.mat-datepicker-content {
+  background-color: #1e1e1e !important;
+  color: white !important;
+}
+
+/* Letras del calendario */
+.mat-calendar-body-cell-content {
+  color: white;
+}
+
+/* Header del calendario */
+.mat-calendar-period-button,
+.mat-calendar-previous-button,
+.mat-calendar-next-button {
+  color: #d38fff !important;
+}
+
+/* Días seleccionados y hover */
+.mat-calendar-body-selected,
+.mat-calendar-body-active {
+  background-color: #d38fff !important;
+  color: black !important;
+}
+
+/* Tooltip y fondo de selector */
+.mat-select-arrow,
+.mat-datepicker-toggle-default-icon {
+  color: #d38fff;
+}
+
+.cdk-overlay-container {
+  z-index: 1000 !important;
+}
+
+/* Estilo general del formulario */
+:host {
+  display: block;
+  background-color: #121212;
+
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Título principal */
+h2 {
+  color: #d38fff;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+}
+
+/* Campos del formulario */
+mat-form-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Botones */
+button {
+  margin-right: 1rem;
+}
+
+
+.mat-select-panel {
+  background-color: #1e1e1e !important;
+  color: white !important;
+  border-radius: 8px !important;
+  border: 1px solid #444 !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8) !important;
+  opacity: 1 !important;
+  z-index: 2000 !important;
+}
+
+/* Opciones individuales dentro del panel */
+.mat-option {
+  background-color: #1e1e1e !important;
+  color: white !important;
+  padding: 12px 16px;
+}
+
+.mat-option:hover {
+  background-color: #2c2c2c !important;
+}
+
+.mat-option.mat-selected {
+  background-color: #d38fff !important;
+  color: black !important;
+}
+
+/* FORM DE GENEROS*/
+/* Fondo y color del panel flotante */
+.mat-mdc-select-panel {
+  background-color: #1e1e1e !important;
+  color: white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8);
+  border: 1px solid #444 !important;
+}
+
+/* Estilo de cada opción */
+.mat-mdc-option {
+  background-color: #1e1e1e !important;
+  color: white !important;
+  padding: 12px 16px;
+}
+
+.mat-mdc-option:hover,
+.mat-mdc-option.mdc-list-item--activated {
+  background-color: #2c2c2c !important;
+}
+
+/*seleccion de genero*/
+
+.mat-mdc-option.mat-mdc-option-active {
+  background-color: #2c2c2c !important;
+  color: black !important;
+}
+
+/* Scrollbar mas bonito */
+.mat-mdc-select-panel::-webkit-scrollbar {
+  width: 6px;
+}
+.mat-mdc-select-panel::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+

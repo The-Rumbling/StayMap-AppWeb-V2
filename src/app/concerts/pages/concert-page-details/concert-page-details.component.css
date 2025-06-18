@@ -1,0 +1,109 @@
+.concert-detail-page {
+  padding: 2rem;
+  color: white;
+  background-color: #000000;
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+.details-container-info {
+  margin-left: 5rem;
+}
+
+.banner-img {
+  border-radius: 20px;
+  height: 25rem;
+  max-width: 50%;
+  object-fit: cover;
+}
+
+.concert-info {
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.description {
+  margin: 1rem 0;
+  font-size: 1rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.button {
+  width: 300px;
+  background-color: #000000;
+  border: 2px solid #CB6CE6;
+  color: white;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+}
+
+.venue-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.fan-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.fan-container {
+  display: flex;
+}
+
+.fan-container p {
+  margin-left: 5rem;
+  font-size: 1.5rem;
+}
+
+.fan-header {
+  background-color: #CB6CE6;
+  color: black;
+  padding: 0.5rem;
+  box-shadow: 0 0 10px #CB6CE6;
+  width: 100%;
+}
+
+.highlight {
+  color: #CB6CE6;
+  font-weight: bold;
+}
+
+.fan-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  margin-left: 9rem;
+  margin-right: 4rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 1rem 0;
+}
+
+.fan-handle {
+  background-color: #1a1a1a;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}

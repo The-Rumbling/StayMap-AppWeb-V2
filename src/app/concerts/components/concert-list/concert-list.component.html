@@ -1,0 +1,5 @@
+<mat-list>
+  @for (concert of concerts; track concert) {
+    <app-concert-card [concert]="concert"></app-concert-card>
+  }
+</mat-list>

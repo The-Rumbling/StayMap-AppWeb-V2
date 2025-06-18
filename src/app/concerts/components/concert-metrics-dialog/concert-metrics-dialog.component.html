@@ -1,0 +1,31 @@
+<h2 mat-dialog-title>Métricas del Concierto</h2>
+
+<mat-dialog-content>
+  <mat-card class="metrics-card">
+    <mat-card-title>{{ data.concert.artist.name }}</mat-card-title>
+    <mat-card-content>
+      <div class="metric">
+        <span class="label">Vistas del anuncio:</span>
+        <span>{{ data.concert.views.length }}</span>
+      </div>
+      <div class="metric">
+        <span class="label">Asistentes confirmados:</span>
+        <span>{{ data.concert.attendees.length }}</span>
+      </div>
+      <div class="metric">
+        <span class="label">Tasa de conversión:</span>
+        <span>{{ conversionRate | number: '1.0-2' }}%</span>
+      </div>
+
+      <mat-progress-bar
+        mode="determinate"
+        [value]="conversionRate"
+        color="accent"
+      ></mat-progress-bar>
+    </mat-card-content>
+  </mat-card>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

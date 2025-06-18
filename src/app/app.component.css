@@ -1,0 +1,55 @@
+.logo-section .logo {
+  height: 50px;
+}
+
+.lolazo{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap:13rem;
+
+  .nav-link {
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 8px;
+
+    &.active,
+    &:hover {
+      background-color: #000;
+      color: #CB6CE6;
+    }
+  }
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.nav-links a.active-link {
+  color: #CB6CE6;
+}
+
+.login-button {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.user-profile-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+}
