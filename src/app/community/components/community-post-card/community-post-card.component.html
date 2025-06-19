@@ -1,0 +1,29 @@
+<mat-card>
+  <div style="font-size: 15px;">
+    <div style="display: flex; gap: 0.5vw">
+      <img mat-card-avatar [src]="user.profileImage" [alt]="user.name">
+      <div style="width: 100%; padding-bottom: 2px;">
+        <div style="display: grid;">
+          <div style="display: flex; align-items: center; margin-bottom: 10px">
+            <div style="font-weight: bold;">
+              {{user.name}}
+              <span style="font-weight: normal; color: #70757a">· {{getPostedAtText(post)}}</span>
+              <br><div style="font-weight: normal; margin-top: 5px">{{this.post.content}}</div>
+            </div>
+            <span style="flex: 1 auto;"></span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="options-btn" viewBox="0 0 16 16">
+                <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
+              </svg>
+            </span>
+          </div>
+        </div>
+        @if (post.imageUrl !== ""){
+          <div style="max-width: 100%; height: 35dvh;">
+            <img [src]="post.imageUrl" [alt]="post.id" style="height: 100%; max-width: 100%; object-fit: cover; border: 1px solid #70757a; border-radius: 12px">
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</mat-card>

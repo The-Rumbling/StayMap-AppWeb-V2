@@ -1,0 +1,7 @@
+@for (post of posts; track post.id){
+  <div style="border-bottom: 0.1vw solid #333840;">
+    <div class="community-card">
+      <app-community-post-card [post]="post"/>
+    </div>
+  </div>
+}
