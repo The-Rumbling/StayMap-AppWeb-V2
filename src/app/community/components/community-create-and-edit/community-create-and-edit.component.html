@@ -1,0 +1,20 @@
+<!-- Create and Edit Community Component -->
+<div class="form-container">
+  <h2>{{ editMode ? 'Edit Community' : 'New Community' }}</h2>
+
+  <form #communityForm="ngForm" (ngSubmit)="onSubmit()" class="form-row">
+    <mat-form-field id="id-form-field">
+      <input [(ngModel)]="community.id" matInput name="id" placeholder="Id" required>
+    </mat-form-field>
+    <mat-form-field id="title-form-field">
+      <input [(ngModel)]="community.name" matInput name="title" placeholder="Title" required>
+    </mat-form-field>
+    <mat-form-field id="image-form-field">
+      <input [(ngModel)]="community.image" matInput name="image" placeholder="Image URL" required>
+    </mat-form-field>
+    <div class="form-buttons">
+      <button color="primary" mat-raised-button>{{ isEditMode() ? 'Update' : 'Add' }}</button>
+      <button (click)="onCancel()" color="warn" mat-raised-button>Cancel</button>
+    </div>
+  </form>
+</div>
