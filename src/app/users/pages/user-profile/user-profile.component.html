@@ -1,0 +1,42 @@
+<div class="perfil-container">
+  <section class="sidebar">
+    <h2>My profile: <span class="type">{{ currentUser.type.toUpperCase() }}</span></h2>
+    <img [src]="currentUser.profileImage || 'https://via.placeholder.com/150'" alt="Foto de perfil" class="profile-pic" />
+    <h3>{{ currentUser.name }}</h3>
+    <h4>{{ currentUser.email }}</h4>
+    <button mat-raised-button class="edit-profile-btn" (click)="onEditProfile()">Editar perfil</button>
+
+    <div class="logout-section">
+      <button class="logout-btn" (click)="onLogout()">Cerrar Sesión</button>
+    </div>
+  </section>
+
+  <section class="concerts">
+    <div class="concert-box">
+      <h3>Assisted Concerts</h3>
+      <ul>
+        <li *ngIf="concertsAssisted.length === 0">No has asistido a ningún concierto.</li>
+        <li *ngFor="let concert of concertsAssisted">
+          <a [routerLink]="['/concerts', concert.id]" class="concert-link">
+            {{ concert.artist.name }}<br />
+            <span>{{ concert.date }}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="concert-box">
+      <h3>Conciertos por asistir</h3>
+      <ul>
+        <li *ngIf="upcomingConcerts.length === 0">No tienes conciertos pendientes.</li>
+        <li *ngFor="let concert of upcomingConcerts">
+          <a [routerLink]="['/concerts', concert.id]" class="concert-link">
+            {{ concert.artist.name }}<br />
+            <span>{{ concert.date }}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+

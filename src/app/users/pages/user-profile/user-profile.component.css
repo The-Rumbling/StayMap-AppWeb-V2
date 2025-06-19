@@ -1,0 +1,159 @@
+body {
+  background-color: #0d0d0d;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Contenedor general */
+.perfil-container {
+  display: flex;
+  gap: 60px;
+  padding: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Sección lateral del perfil */
+.sidebar {
+  text-align: center;
+  max-width: 250px;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  margin-top: 10px;
+}
+
+.profile-placeholder {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #444;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  font-size: 14px;
+}
+
+.type {
+  color: #c84cf7;
+}
+
+.location {
+  margin: 10px 0;
+}
+
+.change-location {
+  color: #c84cf7;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Sección de conciertos */
+.concerts {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.concert-box {
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  padding: 20px;
+  width: 280px;
+}
+
+.concert-box h3 {
+  margin-bottom: 15px;
+}
+
+.concert-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.concert-box li {
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.concert-box span {
+  font-weight: normal;
+  color: #ccc;
+}
+body, .perfil-container, .sidebar, .concerts {
+  color: white;
+}
+
+.sidebar strong,
+.sidebar a,
+.sidebar p,
+.concert-box span,
+.concert-box li,
+.concert-box h3,
+.location strong {
+  color: white;
+}
+
+.change-location {
+  color: #c84cf7;
+}
+
+.logout-btn {
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #666;
+}
+
+/* Contenedor opcional para mejorar separación */
+.logout-section {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.concert-link {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid #444;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+.concert-link:hover {
+  color: #CB6CE6;
+}
+
+.edit-profile-btn {
+  background-color: #d38fff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-weight: 500;
+  width: 100%;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.edit-profile-btn:hover {
+  background-color: #b25eff;
+}
