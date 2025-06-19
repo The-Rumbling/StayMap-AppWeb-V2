@@ -16,6 +16,8 @@
             "outputPath": "dist/pruebita-tb",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "baseHref": "/",
+
             "polyfills": [
               "zone.js"
             ],
