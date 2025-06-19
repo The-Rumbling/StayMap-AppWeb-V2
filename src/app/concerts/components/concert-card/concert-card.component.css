@@ -1,0 +1,33 @@
+.concert-card {
+  max-width: 500px;
+  margin: 40px auto;
+  background-color: #000; /* celeste claro */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+mat-card-title h2 {
+  margin: 0;
+  color: #F9F9F9;
+  font-size: 24px;
+}
+
+mat-card p {
+  color: #9e9e9e;
+}
+
+mat-card-content img {
+  width: 400px;
+  height: 250px;
+  border-radius: 8px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}

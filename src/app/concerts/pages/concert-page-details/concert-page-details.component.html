@@ -1,0 +1,35 @@
+<div class="concert-detail-page">
+  <div class="header-section">
+    <img [src]="concert.image" [alt]="concert.artist.name" class="banner-img" />
+    <div class="details-container-info">
+      <div class="concert-info">
+        <h1 class="title">¡{{ concert.artist.name }} llega a Lima!</h1>
+        <p class="description">{{ concert.description }}</p>
+        <div class="venue-section">
+          <h3>📍 Lugar: {{ concert.venue.name }}</h3>
+          <p>{{ concert.date }} - {{ concert.venue.address }}</p>
+        </div>
+      </div>
+      <div class="button-group">
+        <button class="button" (click)="toggleAttendance()">
+          {{ isAttending ? 'Cancelar asistencia' : 'Confirmar asistencia' }}
+        </button>
+        <button class="button">Comprar entradas</button>
+      </div>
+    </div>
+  </div>
+  <div class="fan-section">
+    <h4 class="fan-header">Comunidad de fans</h4>
+    <div class="fan-container">
+      <p>
+        Conoce a <span class="highlight">fans</span> que
+        <span class="highlight">asistirán</span> al concierto
+      </p>
+      <div class="fan-list">
+        <span *ngFor="let n of [].constructor(15); let i = index" class="fan-handle">
+            {{ '@fan' + (i + 1) }}
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
