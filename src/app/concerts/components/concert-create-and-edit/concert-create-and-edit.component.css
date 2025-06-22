@@ -1,0 +1,95 @@
+:host {
+  display: block;
+  background-color: #121212;
+  color: white;
+  padding: 2rem;
+  border-radius: 1px;
+  max-width: 600px;
+  margin: auto;
+
+  box-shadow: 0 0 0 100vmax #121212; /* ⬅️ Cubre todo detrás con fondo oscuro */
+}
+
+.custom-dialog-container .mat-dialog-container {
+  background-color: #121212 !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  border-radius: 16px !important;
+}
+.mat-dialog-container {
+  background-color: #121212 !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 16px !important;
+  padding: 0 !important;
+}
+.dialog-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d38fff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.form-portion {
+  background-color: transparent;
+  border-radius: 16px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 10px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+button {
+  min-width: 120px;
+}
+
+
+/*form genero*/
+/* Campo del formulario */
+.genre-form-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Estilo interno del mat-select */
+.genre-select {
+  color: white;
+}
+
+/* Opciones */
+.genre-option {
+  color: white;
+  background-color: #1e1e1e;
+}
+
+.genre-option:hover {
+  background-color: #2c2c2c;
+}
+
+/* Opción seleccionada */
+.genre-option.mat-selected {
+  background-color: #d38fff;
+  color: black;
+}
+
+/* Placeholder */
+.genre-placeholder {
+  color: #999;
+}
+

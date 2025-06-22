@@ -1,0 +1,8 @@
+.community-card{
+  padding: 1vw;
+  cursor: pointer;
+}
+
+.community-card:hover{
+  background: #080808;
+}

@@ -1,0 +1,31 @@
+<div class="community-page">
+  <div class="community-header">
+    <h1 class="title">Communities</h1>
+    <div class="create-button-container">
+    <button mat-raised-button color="accent" (click)="onAddCommunityClicked()" class="add-button" *ngIf="isLoggedIn">
+      + Create a Community
+    </button>
+    </div>
+  </div>
+
+  <div *ngIf="formVisible" class="form-container">
+    <app-community-create-and-edit
+      [community]="communityData"
+      [editMode]="editMode"
+      (cancel)="onCancelRequested()"
+      (add)="onCommunityAddRequested($event)"
+      (update)="onCommunityUpdateRequested($event)">
+    </app-community-create-and-edit>
+  </div>
+
+  <div class="community-grid">
+    <div class="community-card" *ngFor="let community of filteredCommunities" (click)="onCommunityCardClicked(community.id)">
+      <div class="card-image" [ngStyle]="{ 'background-image': 'url(' + community.image + ')' }"></div>
+      <div class="card-content">
+        <h3 class="card-title">{{ community.name }}</h3>
+        <p class="card-members">{{ community.members.length }} members</p>
+        <button mat-raised-button color="primary" class="join-button">Join group</button>
+      </div>
+    </div>
+  </div>
+</div>
