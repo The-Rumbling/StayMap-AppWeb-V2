@@ -28,7 +28,7 @@ export abstract class BaseService<T> {
   protected resourcePath(): string {
     return `${this.serverBaseUrl}${this.resourceEndpoint}`;
   }
-
+//CRUD START
   /**
    * Section CRUD operations
    * */
